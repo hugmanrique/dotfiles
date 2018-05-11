@@ -1,0 +1,42 @@
+# General
+log/
+logs/
+*.log
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Java
+hs_err_pid*
+
+# Maven
+target/
+dependency-reduced-pom.xml
+
+# Node
+npm-debug.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# JetBrains
+.idea/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

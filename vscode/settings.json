@@ -1,0 +1,26 @@
+{
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "html.format.extraLiners": "",
+  "scss.lint.zeroUnits": "warning",
+  "files.trimTrailingWhitespace": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.showSlider": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "extensions.ignoreRecommendations": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // Quickly open multiple items in a row and not have the previous ones closed
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "php.validate.executablePath": "D:/php/php.exe"
+}

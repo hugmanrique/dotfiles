@@ -1,0 +1,21 @@
+[alias]
+  push = push -u
+  up = pull --rebase --autostash
+  set-upstream = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
+  pull-changes = git pull --rebase origin master
+[user]
+  name = Hugo Manrique
+  email = FILL_EMAIL
+  signingkey = FILL_GIT_KEY
+[commit]
+  gpgsign = true
+[gpg]
+  # TODO Remove?
+  program = D:/Program Files (x86)/GNU/GnuPG/gpg2.exe
+[push]
+  default = current
+  followTags = true
+[core]
+  editor = code
+[git-up "fetch"]
+  prune = true

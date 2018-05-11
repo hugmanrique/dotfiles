@@ -84,7 +84,7 @@
     ],
     "radix": 0,
     "no-shadow": [
-      2,
+      1,
       {
         "hoist": "all",
         "allow": [

@@ -17,5 +17,6 @@
   followTags = true
 [core]
   editor = code
+  autocrlf = true
 [git-up "fetch"]
   prune = true

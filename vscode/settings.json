@@ -4,6 +4,7 @@
   "html.format.extraLiners": "",
   "scss.lint.zeroUnits": "warning",
   "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
   "editor.minimap.enabled": false,
   "editor.minimap.showSlider": "always",
   "workbench.startupEditor": "newUntitledFile",

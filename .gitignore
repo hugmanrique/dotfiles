@@ -33,6 +33,7 @@ pids
 
 # JetBrains
 .idea/
+*.iml
 
 # VSCode
 .vscode/*

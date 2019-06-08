@@ -9,14 +9,16 @@
   signingkey = FILL_GIT_KEY
 [commit]
   gpgsign = true
-[gpg]
-  # TODO Remove?
-  program = D:/Program Files (x86)/GNU/GnuPG/gpg2.exe
 [push]
   default = current
   followTags = true
 [core]
-  editor = code
+  editor = vim
   autocrlf = true
 [git-up "fetch"]
   prune = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
